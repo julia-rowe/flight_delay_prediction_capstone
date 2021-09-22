@@ -1,7 +1,12 @@
 # Flight Delay Prediction
 
 
+
 **Objective:** To create a multi-class classification model to predict the severity of flight delays in the U.S. categorized to three outcomes: on-time, minor delay, and major delay.
+
+
+
+
 
 
 ### Background
@@ -18,9 +23,9 @@ Can we predict severity of flight delays? Some flight delays can be prevented, w
 ### Data
 ---
 * Flight data from all major airlines in 2015
- * flights.csv (file exceeds GitHub maximum file size limit. Data can be downloaded [here](https://www.kaggle.com/usdot/flight-delays) from Kaggle)
+    * flights.csv (file exceeds GitHub maximum file size limit. Data can be downloaded [here](https://www.kaggle.com/usdot/flight-delays) from Kaggle)
 * Daily climate data from the National Oceanic and Atmospheric Administration (NOAA) in 2015
- * [chi_ny.csv](./data/flight_delay_cleaned.csv)
+    * [chi_ny.csv](./data/flight_delay_cleaned.csv)
 
 Due to the size of the flight data and limitations of requesting files from NOAA, the data has been scoped down to a singular flight plath with flights departing from the LGA and arriving at ORD. Climate data has been retrieved from NOAA for two cities, Queens, NY and Chicago, IL.
 
